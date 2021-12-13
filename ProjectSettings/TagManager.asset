@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Joystick Movement
+  - Joystick Camera
+  - Ground
+  - cam
   layers:
   - Default
   - TransparentFX

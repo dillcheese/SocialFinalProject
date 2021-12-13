@@ -22,7 +22,7 @@ public class Launcher : MonoBehaviourPunCallbacks
     public Button startButton; //*
     public Button settingsButton;
 
-    public GameObject readyButton;
+    //public GameObject readyButton;
     public Transform buttonOrganizer;
 
     public void Start()
@@ -71,7 +71,7 @@ public class Launcher : MonoBehaviourPunCallbacks
             }
         }
 
-        Instantiate(readyButton, buttonOrganizer).GetComponent<ReadyButton>().SetCurrentPlayer(playerListContent.gameObject);
+       // Instantiate(readyButton, buttonOrganizer).GetComponent<ReadyButton>().SetCurrentPlayer(playerListContent.gameObject);
     }
 
     public override void OnCreateRoomFailed(short returnCode, string message)
@@ -97,6 +97,6 @@ public class Launcher : MonoBehaviourPunCallbacks
 
     public void OnClickStartGame() //*
     {
-        PhotonNetwork.LoadLevel("Game");
+        PhotonNetwork.LoadLevel("Arena");
     }
 }
