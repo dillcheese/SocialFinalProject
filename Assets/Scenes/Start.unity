@@ -193,9 +193,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Name
+  m_Text: 'Jackie Zhou
 
-    Student Number'
+    100750922'
 --- !u!222 &592369443
 CanvasRenderer:
   m_ObjectHideFlags: 0
